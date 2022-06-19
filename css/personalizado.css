@@ -48,7 +48,7 @@
     width: 300px;
 }
 .dark-bg{
-    background-image: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .7)), url(../img/hero_imagen.jpg);
+    background-image: linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, .5)), url(../img/hero_imagen.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
