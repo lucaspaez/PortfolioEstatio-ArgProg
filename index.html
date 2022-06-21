@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/personalizado.css">
     <!-- CSS otros desarrolladores -->
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/timeline.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/05e98d60c1.js" crossorigin="anonymous"></script>
     <!-- boxicons -->
@@ -27,7 +28,7 @@
     <!--Menu-->
     <div class="offcanvas offcanvas-start bg-dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header perfil">
-            <!--<button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>-->
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             <img src="img/foto_perfil.jpg" class="img-fluid mx-auto d-block" alt="lucas_paez">
             <h4 class="offcanvas-title text-light text-center" id="offcanvasScrollingLabel"><a href="#acerca-de-mi">Lucas Paez</a></h4>
             <div class="mt-3 text-center sosial-icon">
@@ -48,7 +49,7 @@
                 <a class="nav-link active" aria-current="page" href="#hero"><i class='bx bx-home pe-2'></i><span>Inicio</span></a>
                 <a class="nav-link" href="#acerca-de-mi"><i class='bx bx-user pe-2'></i><span>Acerca de mi..</span></a>
                 <a class="nav-link" href="#skills"><i class="fa-solid fa-align-left pe-2"></i><span>Skills</span></a>
-                <a class="nav-link" href="#"><i class='bx bx-server pe-2'></i><span>Servicios</span></a>
+                <a class="nav-link" href="#experiencia"><i class='bx bx-server pe-2'></i><span>Experiencia</span></a>
                 <a class="nav-link" href="#"><i class='bx bx-book-content pe-2'></i><span>Portafolio</span></a>
                 <a class="nav-link" href="#"><i class='bx bx-envelope pe-2'></i><span>Contactame</span></a>
             </nav>
@@ -59,17 +60,17 @@
         <div class="container">
             <div class="text-light position-absolute top-50 start-50 translate-middle">
                 <h1 id="titulo-hero">Lucas Paez</h1>
-                <h2 id="subtitulo-hero">¡Bienvenidos a mi Portafolio!</h2>
+                <h2 id="subtitulo-hero">¡Bienvenidos a mi Sitio!</h2>
             </div>
             <div class="text-light position-absolute top-70 start-50 translate-middle">
                 <h2 id="tipeador">
                     <span class="typed"></span>
                 </h2>
                 <div id="cadenas-texto">
-                    <h2>Soy <span class="subrayado">Electrónico..</span></h2>
-                    <h2>Soy <span class="subrayado">Programador..</span></h2>
-                    <h2>Soy <span class="subrayado">Networker..</span></h2>
-                    <h2>Soy <span class="subrayado">Freelance..</span></h2>
+                    <h2>Estudie <span class="subrayado">Electrónica</span></h2>
+                    <h2>Soy <span class="subrayado">Programador</span></h2>
+                    <h2>Especialista en <span class="subrayado">Redes</span></h2>
+                    <h2>Trabajo como <span class="subrayado">Freelance</span></h2>
                 </div>
             </div>
         </div>
@@ -108,7 +109,7 @@
 
         <!-- Skills -->
         <section id="skills" class="section-bg">
-            <div class="container">
+            <div class="container mt-2">
                 <div class="titulo-seccion">
                     <h2>Skills</h2>
                     <p>Capacidad y conocimientos técnicos orientados al desarrollo, que he absorbido a lo largo de mi trayectoria en el sector IT.</p>
@@ -203,6 +204,84 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Experiencia -->
+        <section id="experiencia">
+            <div class="container mt-4">
+                <div class="titulo-seccion">
+                    <h2>Experiencia</h2>
+                    <p>Experiencia laboral relevante en diferentes empresas y liderando equipos de trabajo.</p>
+                </div>
+                <div class="container-experiencia">
+                    <div class="timeline">
+                      <ul>
+                        <li>
+                          <div class="timeline-content">
+                            <h3 class="date">Actualidad</h3>
+                            <h1>Operador de Sistemas</h1>
+                            <p>Procesamiento de datos en Banco Tierra del Fuego, Ushuaia Argentina.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-content">
+                            <h3 class="date">12 may, 2022</h3>
+                            <h1>Ingeniería de Procesos</h1>
+                            <p>Análisis y optimización de los procesos productivos.
+                              Desarrollo y seguimiento de nuevos proyectos.
+                              Supervisión de calidad en la línea de producción.
+                              Implementación y análisis de KPIs.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-content">
+                            <h3 class="date">12 abr, 2022</h3>
+                            <h1>Planificador de Producción</h1>
+                            <p>Diseño de plan de producción. Determinación y
+                              calculo de los volúmenes de producción y stock.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-content">
+                            <h3 class="date">8 mar, 2021</h3>
+                            <h1>Responsable de Logística</h1>
+                            <p>Gestión y planificación de las actividades de
+                              transporte, almacenaje y distribución. Optimización en los
+                              plazos de entregas y almacenamiento de producto terminado.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-content">
+                            <h3 class="date">20 mar, 2018</h3>
+                            <h1>Supervisor de Producción</h1>
+                            <p>Supervisión y optimización de la producción. Asegurar la
+                              calidad del producto. Líder de equipos.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-content">
+                            <h3 class="date">20 mar, 2018</h3>
+                            <h1>Supervisor de Producción</h1>
+                            <p>Supervisión y optimización de procesos productivos.
+                              Carga de indicadores de producción. Asegurar la
+                              calidad del producto. Formación a los operarios de
+                              máquinas y operarios de clasificación. Líder de
+                              equipos.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-content">
+                            <h3 class="date">20 mar, 2018</h3>
+                            <h1>Soporte IT</h1>
+                            <p>Implementación, administración y monitoreo de Networking.
+                              Administración de servidores NAS, Firewall, FTP,
+                              Active Directory. GNU/Linux Debian. Configuración Cisco y Mikrotik. Auditoria de Red.</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
             </div>
         </section>
     </main>

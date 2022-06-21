@@ -22,13 +22,16 @@
 
 #titulo-hero{
     font-family: 'Public Sans', sans-serif;
+    letter-spacing: 2px;
 }
 #subtitulo-hero{
     font-family: 'Questrial', sans-serif;
+    letter-spacing: 2px;
 }
 #tipeador{
     display: block;
     font-family: 'Questrial', sans-serif;
+    letter-spacing: 2px;
 }
 
 .perfil{
@@ -125,5 +128,6 @@
     padding: 30px;
 }
 .section-bg {
-    background: #f5f8fd;
+    background: #f0f0f0; /* #f5f8fd */
 }
+
