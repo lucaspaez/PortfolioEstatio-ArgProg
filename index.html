@@ -11,58 +11,99 @@
     <link rel="stylesheet" href="css/personalizado.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/05e98d60c1.js" crossorigin="anonymous"></script>
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Boton para moviles -->
     <span class="align-middle  boton_navegacion_mobiles"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i></span>
-    <!--Menu para moviles -->
-    <div class="offcanvas offcanvas-start bg-dark offcanvas-transparente" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-        <div class="offcanvas-header offcanvas-perfil perfil">
+    <!--Menu-->
+    <div class="offcanvas offcanvas-start bg-dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header perfil">
             <!--<button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>-->
-            <img src="img/foto_perfil.jpg" class="img-fluid redondeado mx-auto d-block" alt="lucas_paez">
-            <h4 class="offcanvas-title text-light text-center" id="offcanvasScrollingLabel"><a href="#">Lucas Leonardo Paez</a></h4>
-            <div class="mt-3 text-center">
-                <a href="#" class="social-link">
+            <img src="img/foto_perfil.jpg" class="img-fluid mx-auto d-block" alt="lucas_paez">
+            <h4 class="offcanvas-title text-light text-center" id="offcanvasScrollingLabel"><a href="#acerca-de-mi">Lucas Paez</a></h4>
+            <div class="mt-3 text-center sosial-icon">
+                <a href="https://www.facebook.com/lucaspaez.ar/" target="_blank" class="m-2">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
-                <a href="#" class="social-link">
+                <a href="https://www.instagram.com/lukaspaez/" target="_blank" class="m-2">
                     <i class="fa-brands fa-instagram-square"></i>
                 </a>
-                <a href="#" class="social-link">
+                <a href="https://www.linkedin.com/in/lucas-leonardo-paez/" target="_blank" class="m-2">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
             </div>
         </div>
-        <div class="offcanvas-body">
-        <!-- navbar mobil -->
-        <nav class="nav flex-column mt-5 perfil">
-            <a class="nav-link active" aria-current="page" href="#"><h5>Inicio</h5></a>
-            <a class="nav-link" href="#"><h5>Acerca de mi..</h5></a>
-            <a class="nav-link" href="#"><h5>Servicios</h5></a>
-            <a class="nav-link" href="#"><h5>Portfolio</h5></a>
-            <a class="nav-link" href="#"><h5>Contactame..</h5></a>
-          </nav>
+        <div class="offcanvas-body perfil text-start">
+            <!-- navbar -->
+            <nav class="nav flex-column mt-5">
+                <a class="nav-link active" aria-current="page" href="#hero"><i class='bx bx-home pe-2'></i><span>Inicio</span></a>
+                <a class="nav-link" href="#acerca-de-mi"><i class='bx bx-user pe-2'></i><span>Acerca de mi..</span></a>
+                <a class="nav-link" href="#"><i class='bx bx-server pe-2'></i><span>Servicios</span></a>
+                <a class="nav-link" href="#"><i class='bx bx-book-content pe-2'></i><span>Portafolio</span></a>
+                <a class="nav-link" href="#"><i class='bx bx-envelope pe-2'></i><span>Contactame</span></a>
+            </nav>
         </div>
     </div>
+    <!-- Seccion de presentación -->
     <section id="hero" class="dark-bg">
         <div class="container">
-            <div class="text-light d-flex flex-column position-absolute top-50 start-50 translate-middle">
-                <h1>Lucas Leonardo Paez</h1>
-                <h2>¡Bienvenidos a mi Portafolio!</h2>
+            <div class="text-light position-absolute top-50 start-50 translate-middle">
+                <h1 id="titulo-hero">Lucas Paez</h1>
+                <h2 id="subtitulo-hero">¡Bienvenidos a mi Portafolio!</h2>
             </div>
-            <div class="text-light d-flex flex-column position-absolute top-70 start-50 translate-middle">
-                <h2>
+            <div class="text-light position-absolute top-70 start-50 translate-middle">
+                <h2 id="tipeador">
                     <span class="typed"></span>
                 </h2>
                 <div id="cadenas-texto">
-                    <h2>Soy Técnico Electrónico Industrial..</h2>
-                    <h2>Soy Desarrollador Frontend..</h2>
-                    <h2>Soy Desarrollador Backend..</h2>
-                    <h2>Soy Especialista en Redes de Datos..</h2>    
+                    <h2>Soy <span class="subrayado">Electrónico..</span></h2>
+                    <h2>Soy <span class="subrayado">Programador..</span></h2>
+                    <h2>Soy <span class="subrayado">Networker..</span></h2>
+                    <h2>Soy <span class="subrayado">Freelance..</span></h2>
                 </div>
             </div>
         </div>
     </section>
+    <main id="main">
+        <!-- Seccion Acerca de mi -->
+        <section id="acerca-de-mi">
+            <div class="container">
+                <div class="titulo-seccion">
+                    <h2>Acerca de mi</h2>
+                    <p>Los últimos cuatro años me he
+                        encontrado inmerso en tareas
+                        operativas y administrativas dentro de la
+                        industria. Esto me abrió un mundo de
+                        nuevas oportunidades no tan solo
+                        laborales sino de crecimiento personal.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/foto_perfil.jpg" alt="Lucas Paez" class="position-relative top-50 start-50 translate-middle">
+                    </div>
+                    <div class="col-lg-8">
+                        <h3>Soporte Técnico IT & Desarrollador</h3>
+                        <ul class="lista">
+                            <li><i class="fa-solid fa-angle-right"></i><b>Fecha de Nacimiento:</b> 16 Jul 1985</li>
+                            <li><i class="fa-solid fa-angle-right"></i><b>Edad:</b> 30 años</li>
+                            <li><i class="fa-solid fa-angle-right"></i><b>Ciudad:</b> Ushuaia, Argentina</li>
+                            <li><i class="fa-solid fa-angle-right"></i><b>email:</b> lucaspaez.ar@gmail.com</li>
+                            <li><i class="fa-solid fa-angle-right"></i><b>Sitio Web:</b> lucaspaez.github.io</li>
+                            <li><i class="fa-solid fa-angle-right"></i><b>Freelance:</b> Si</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
     <!-- Typed.js -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="/js/config_typed.js"></script>
