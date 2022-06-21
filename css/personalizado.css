@@ -117,4 +117,13 @@
 }
 .titulo-seccion p{
     margin-top: 40px;
+    font-family: 'Questrial', sans-serif;
+    font-size: large;
+}
+
+#skills{
+    padding: 30px;
+}
+.section-bg {
+    background: #f5f8fd;
 }
