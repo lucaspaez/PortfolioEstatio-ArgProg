@@ -1,0 +1,10 @@
+.tagcloud {
+    font-family: 'Questrial', sans-serif;  
+    font-size: 20px;
+    font-weight: 650;
+    margin-left: auto;
+    color: rgb(255, 94, 0);
+  }
+  .tagcloud--item:hover {
+    color: rgb(255, 94, 0);
+  }
