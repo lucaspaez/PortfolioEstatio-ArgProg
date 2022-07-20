@@ -131,3 +131,51 @@
     background: #f0f0f0; /* #f5f8fd */
 }
 
+/* FORMULARIO DE CONTACTO */
+/* 
+.header {
+    color: rgb(255, 94, 0);
+    font-size: 27px;
+    padding: 10px;
+} */
+
+.bigicon {
+    font-size: 35px;
+    color: rgb(255, 94, 0);
+}
+
+#contactame{
+    padding: 30px;
+}
+
+.btn_enviar{
+    background-color: rgb(255, 94, 0);
+    border: none;
+    margin-top: 20px;
+}
+
+.btn_enviar:hover{
+    background-color: rgb(255, 174, 128);
+}
+
+.entradas_form{
+    padding-top: 50px;
+}
+
+.tamanio{
+    max-width: 700px;
+}
+
+.tamanio-btn{
+    max-width: 790px;
+}
+
+/* Footer */
+
+footer{
+    padding: 30px;
+    background-color: #f0f0f0;
+    font-family: 'Public Sans', sans-serif;
+    color: #acacac;
+    font-size: small;
+}
