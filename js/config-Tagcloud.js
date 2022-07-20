@@ -3,8 +3,8 @@ const myTags = [
     'C', 'C++', 'Angular',
     'Python', 'Java', 'Git',
     'TypeScript', 'Nodejs', 'Cisco',
-    'Mikrotik', 'MySQL', 'Networking',
-    'DevOps', 'Linux', 'Electrónica',
+    'Mikrotik', 'MySQL', 'Linux',
+    'DevOps', 'Networking',
 ];
 
 var tagCloud = TagCloud('.contenido-esfera', myTags,{
@@ -15,7 +15,7 @@ var tagCloud = TagCloud('.contenido-esfera', myTags,{
     // animation speed
     // slow, normal, fast
     maxSpeed: 'normal',
-    initSpeed: 'normal',
+    initSpeed: 'fast',
   
     // 0 = top
     // 90 = left
