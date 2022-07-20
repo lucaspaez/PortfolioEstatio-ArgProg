@@ -10,12 +10,12 @@ const myTags = [
 var tagCloud = TagCloud('.contenido-esfera', myTags,{
 
     // radius in px
-    radius: 200,
+    radius: 170,
   
     // animation speed
     // slow, normal, fast
-    maxSpeed: 'fast',
-    initSpeed: 'fast',
+    maxSpeed: 'normal',
+    initSpeed: 'normal',
   
     // 0 = top
     // 90 = left
