@@ -6,7 +6,7 @@
     color: rgb(255, 94, 0);
   }
   .tagcloud--item:hover {
-    color: rgb(204, 75, 0);
+    color: rgb(255, 0, 0);
   }
 
   @media only screen and (max-width: 385px) {
