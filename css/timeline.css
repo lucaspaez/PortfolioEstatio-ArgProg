@@ -36,6 +36,11 @@ html {
   margin-bottom: 20px;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
 }
+
+.timeline ul li:hover {
+  background-color: rgb(226, 83, 0);
+}
+
 .timeline ul li:last-child {
   margin-bottom: 0;
 }
