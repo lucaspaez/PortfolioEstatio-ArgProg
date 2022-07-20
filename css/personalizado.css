@@ -170,6 +170,12 @@
     max-width: 790px;
 }
 
+/* Seccion Portafolio */
+
+#portafolio{
+    padding: 30px;
+}
+
 /* Footer */
 
 footer{
