@@ -1,10 +1,11 @@
 const myTags = [
     'JavaScript', 'CSS', 'HTML',
     'C', 'C++', 'Angular',
-    'Python', 'Java', 'Git',
-    'TypeScript', 'Nodejs', 'Cisco',
+    'Python', 'TypeScript', 'Git',
+    'Java', 'Nodejs', 'Cisco',
     'Mikrotik', 'MySQL', 'Linux',
-    'DevOps', 'Networking',
+    'DevOps', 'Networking', '3DPrinter',
+    'Bootstrap', 'Wordpress',
 ];
 
 var tagCloud = TagCloud('.contenido-esfera', myTags,{
