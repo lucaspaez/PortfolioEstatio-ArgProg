@@ -185,3 +185,14 @@ footer{
     color: #acacac;
     font-size: small;
 }
+
+/* Seccion POrtafolio */
+
+.tarjetas {
+    margin-top: 50px;
+
+}
+
+.card{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}

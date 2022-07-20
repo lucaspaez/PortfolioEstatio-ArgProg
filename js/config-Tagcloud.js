@@ -5,7 +5,7 @@ const myTags = [
     'Java', 'Nodejs', 'Cisco',
     'Mikrotik', 'MySQL', 'Linux',
     'DevOps', 'Networking', '3DPrinter',
-    'Bootstrap', 'Wordpress',
+    'Bootstrap', 'Wordpress', 'Fusion360',
 ];
 
 var tagCloud = TagCloud('.contenido-esfera', myTags,{
