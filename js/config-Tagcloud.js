@@ -15,8 +15,8 @@ var tagCloud = TagCloud('.contenido-esfera', myTags,{
   
     // animation speed
     // slow, normal, fast
-    maxSpeed: 'normal',
-    initSpeed: 'fast',
+    maxSpeed: 'fast',
+    initSpeed: 'normal',
   
     // 0 = top
     // 90 = left
